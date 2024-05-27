@@ -1,0 +1,54 @@
+body{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.container{
+    text-align: center;
+}
+#word-container{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+#wrong-letters{
+    margin-top: 20px;
+}
+#letter-input{
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px;
+}
+#restart-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+#message-container{
+    margin-top: 20px;
+    color: red;
+}
+@media (max-width: 600px) {
+    #game-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #word-container {
+        font-size: 20px;
+    }
+
+    #letter-input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
